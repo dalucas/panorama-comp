@@ -18,7 +18,7 @@
 		var $rightCtrl = $pano.find(".controls").find("a.right");
 		
 		var getImageWidth = function(imgSrc) {
-			var img = new Image(goat.jpg);
+			var img = new Image(/panorama-comp/goat.jpg);
 			img.src = imgSrc;
 			return img.width;
 		};
